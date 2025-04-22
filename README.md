@@ -26,7 +26,7 @@ Fetches the value at the specified path in the Firebase Realtime Database.
 
 #### `put(path: string, value: object): Promise<any>`
 
-Creates or completely overwrites a value at the given path.
+Creates or completely overwrites a value at the given path. `set` does the same.
 
 #### `post(path: string, value: object): Promise<any>`
 
